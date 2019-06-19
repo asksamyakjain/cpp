@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+   
+int i,x,s=0,y=0;
+    
+cin>>x;
+    
+for(i=1;i<=x;i++){
+    
+y=y*10+9;
+    
+s+=y;
+    
+}
+    
+cout<<"sum is :"<<s;
+
+    
+return 0;
+}
+
+
+
